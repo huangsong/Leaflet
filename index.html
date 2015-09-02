@@ -7,11 +7,9 @@ layout: v2
 它拥有大多数地图开发者需要的 <a href="#features">功能</a> 。</p>
 
 <p>Leaflet 以 <em>简洁</em>, <em>高性能</em> 和 <em>易用性</em> 为理念。
-It works efficiently across all major desktop and mobile platforms,
-can be extended with lots of <a href="plugins.html">插件</a>,
-有一套简单易用的 <a title="Leaflet API reference" href="reference.html">API文档</a>
-and a simple, readable&nbsp;<a title="Leaflet source code repository on GitHub" href="https://github.com/Leaflet/Leaflet">source code</a> that is a&nbsp;joy to
-<a title="A guide to contributing to Leaflet" href="https://github.com/Leaflet/Leaflet/blob/master/CONTRIBUTING.md">contribute</a> to.</p>
+在移动端和桌面端都能高效的运行,并且具有可扩展性和很多的 <a href="plugins.html">插件</a>，
+还有简单易用的 <a title="Leaflet API reference" href="reference.html">API文档</a>
+和简单的、可读性强的&nbsp;<a title="Leaflet source code repository on GitHub" href="https://github.com/Leaflet/Leaflet">源代码</a>。</p>
 
 <div id="map" class="map map-home" style="height: 300px; margin-top: 50px"></div>
 
@@ -24,7 +22,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 L.marker([51.5, -0.09]).addTo(map)
-    .bindPopup('一个漂亮的 CSS3 冒泡窗.&lt;br&gt; Easily customizable.')
+    .bindPopup('一个漂亮的 CSS3 冒泡窗.&lt;br&gt; 易于定制。')
     .openPopup();</code></pre>
 
 <p>通过 <a href="examples/quick-start.html">快速开始指南</a>, 和 <a href="examples.html">其他示例</a>了解更多内容，
@@ -60,16 +58,16 @@ L.marker([51.5, -0.09]).addTo(map)
 
 <h2 id="features">功能</h2>
 
-<p>Leaflet doesn't try to do everything for everyone. Instead it focuses on making <em>the basic things work perfectly</em>.</p>
+<p>Leaflet 并不想做一个大而全的框架，相反更专注于<em>把基本的功能做到完美</em>。</p>
 
 <div class="features clearfix">
     <h3>图层</h3>
 
     <ul>
-        <li>Tile layers, WMS</li>
-        <li>Markers, Popups</li>
-        <li>Vector layers<span class="quiet">: polylines, polygons, circles, rectangles</li>
-        <li>Image overlays</li>
+        <li>瓦片图层, WMS</li>
+        <li>标记, 冒泡窗</li>
+        <li>矢量图层<span class="quiet">: 折线, 多边形, 圆, 矩形</li>
+        <li>图片叠加层</li>
         <li>GeoJSON</li>
     </ul>
 
@@ -101,29 +99,29 @@ L.marker([51.5, -0.09]).addTo(map)
 
     <ul>
         <li>纯 CSS3 冒泡窗和地图控件 <span class="quiet">便于修改</span></li>
-        <li>图像 - 基于 HTML 的图标</li>
-        <li><span class="quiet">A simple interface for</span> custom map layers and controls</li>
-        <li>Custom map projections <span class="quiet">(with <code>EPSG:3857/4326/3395</code> out of the box)</span></li>
-        <li>Powerful OOP facilities <span class="quiet">for extending existing classes</span></p>
+        <li>图片 - 基于 HTML-based 的标记</li>
+        <li>一套创建自定义图层和控件的 <span class="quiet">简单接口</span></li>
+        <li>自定义地图投影 <span class="quiet">( <code>EPSG:3857/4326/3395</code>)</span></li>
+        <li>强大的 OOP 设计模式， <span class="quiet">可快速扩展现有的类</span></p>
     </ul>
 
-    <h3>Performance Features</h3>
+    <h3>性能特点</h3>
 
     <ul>
-        <li>Hardware acceleration on mobile <span class="quiet"> makes it feel as smooth as native apps</span></li>
-        <li>Utilizing CSS3 features <span class="quiet">to make panning and zooming really smooth</span></li>
-        <li>Smart polyline/polygon rendering <span class="quiet">with dynamic clipping and simplification makes it very fast</span></li>
-        <li>Modular build system<span class="quiet"> for leaving out features you don't need</span></li>
-        <li>Tap delay elimination on mobile</li>
+        <li>在移动端使用硬件加速 <span class="quiet"> 感觉如原生应用般</span></li>
+        <li>利用 CSS3 特性 <span class="quiet">让平移和缩放更加平滑</span></li>
+        <li>智能折线、多边形渲染 <span class="quiet">动态裁剪和简化</span></li>
+        <li>模块化构建系统<span class="quiet"> 按需加载</span></li>
+        <li>在移动端消除点击延迟的问题</li>
     </ul>
 
     <h3>地图控件</h3>
 
     <ul>
-        <li>Zoom buttons</li>
-        <li>Attribution</li>
-        <li>Layer switcher</li>
-        <li>Scale</li>
+        <li>缩放按钮</li>
+        <li>版权信息</li>
+        <li>图层切换</li>
+        <li>比例尺</li>
     </ul>
 
 
@@ -150,11 +148,11 @@ L.marker([51.5, -0.09]).addTo(map)
     </ul>
 
 
-    <h3>Misc</h3>
+    <h3>杂项</h3>
 
     <ul>
-        <li>Extremely lightweight</li>
-        <li>No external dependencies</li>
+        <li>轻量级</li>
+        <li>没有外部依赖</li>
     </ul>
 </div>
 
@@ -175,15 +173,7 @@ and spreading the word about Leaflet among your colleagues and friends.</p>
 
 <p>Check out the <a href="https://github.com/Leaflet/Leaflet/blob/master/CONTRIBUTING.md">contribution guide</a> for more information on getting involved with Leaflet development.</p>
 
-<div class="social-buttons">
-    <iframe src="http://ghbtns.com/github-btn.html?user=Leaflet&amp;repo=Leaflet&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="104px" height="20px"></iframe>
 
-    <a href="https://twitter.com/LeafletJS" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @LeafletJS</a>
-
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fleafletjs.com&amp;layout=button_count&amp;show_faces=false&amp;width=93&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:93px; height:20px;" allowTransparency="true"></iframe>
-</div>
 
 <script>
 	var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -194,6 +184,6 @@ and spreading the word about Leaflet among your colleagues and friends.</p>
 
 	L.marker([51.504, -0.159])
 		.addTo(map)
-		.bindPopup('A pretty CSS3 popup.<br />Easily customizable.')
+		.bindPopup('一个漂亮的 CSS3 冒泡窗。<br /> 易于定制。')
 		.openPopup();
 </script>
