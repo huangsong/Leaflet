@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Leaflet Quick Start Guide Example</title>
+	<title>Leaflet 快速开始指南示例</title>
 	<meta charset="utf-8" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,19 +26,19 @@
 
 
 		L.marker([51.5, -0.09]).addTo(map)
-			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+			.bindPopup("<b>Hello world!</b><br />我是一个冒泡窗").openPopup();
 
 		L.circle([51.508, -0.11], 500, {
 			color: 'red',
 			fillColor: '#f03',
 			fillOpacity: 0.5
-		}).addTo(map).bindPopup("I am a circle.");
+		}).addTo(map).bindPopup("我是一个圆");
 
 		L.polygon([
 			[51.509, -0.08],
 			[51.503, -0.06],
 			[51.51, -0.047]
-		]).addTo(map).bindPopup("I am a polygon.");
+		]).addTo(map).bindPopup("我是一条折现");
 
 
 		var popup = L.popup();
@@ -46,7 +46,7 @@
 		function onMapClick(e) {
 			popup
 				.setLatLng(e.latlng)
-				.setContent("You clicked the map at " + e.latlng.toString())
+				.setContent("你刚点击的坐标是 " + e.latlng.toString())
 				.openOn(map);
 		}
 

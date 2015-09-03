@@ -4,106 +4,106 @@ title: Documentation
 bodyclass: api-page
 ---
 
-<h2>API Reference</h2>
+<h2>API 文档</h2>
 
 <div id="toc" class="clearfix">
 	<div class="toc-col map-col">
-		<h4>Map</h4>
+		<h4>地图</h4>
 		<ul>
-			<li><a href="#map-usage">Usage example</a></li>
-			<li><a href="#map-constructor">Creation</a></li>
-			<li><a href="#map-options">Options</a></li>
-			<li><a href="#map-events">Events</a></li>
+			<li><a href="#map-usage">用法示例</a></li>
+			<li><a href="#map-constructor">创建</a></li>
+			<li><a href="#map-options">参数</a></li>
+			<li><a href="#map-events">事件</a></li>
 		</ul>
-		<h4>Map Methods</h4>
+		<h4>地图方法</h4>
 		<ul>
-			<li><a href="#map-set-methods">Modifying map state</a></li>
-			<li><a href="#map-get-methods">Getting map state</a></li>
-			<li><a href="#map-stuff-methods">Layers and controls</a></li>
-			<li><a href="#map-conversion-methods">Conversion methods</a></li>
-			<li><a href="#map-misc-methods">Other methods</a></li>
+			<li><a href="#map-set-methods">修改地图状态</a></li>
+			<li><a href="#map-get-methods">获取地图状态</a></li>
+			<li><a href="#map-stuff-methods">图层和控件</a></li>
+			<li><a href="#map-conversion-methods">转换方法</a></li>
+			<li><a href="#map-misc-methods">其他方法</a></li>
 		</ul>
-		<h4>Map Misc</h4>
+		<h4>地图杂项</h4>
 		<ul>
-			<li><a href="#map-properties">Properties</a></li>
-			<li><a href="#map-panes">Panes</a></li>
-		</ul>
-	</div>
-	<div class="toc-col">
-		<h4>UI Layers</h4>
-		<ul>
-			<li><a href="#marker">Marker</a></li>
-			<li><a href="#popup">Popup</a></li>
-		</ul>
-		<h4>Raster Layers</h4>
-		<ul>
-			<li><a href="#tilelayer">TileLayer</a></li>
-			<li><a href="#tilelayer-wms">TileLayer.WMS</a></li>
-			<li><a href="#tilelayer-canvas">TileLayer.Canvas</a></li>
-			<li><a href="#imageoverlay">ImageOverlay</a></li>
-		</ul>
-		<h4>Vector Layers</h4>
-		<ul>
-			<li><a href="#path">Path</a></li>
-			<li><a href="#polyline">Polyline</a></li>
-			<li><a href="#multipolyline">MultiPolyline</a></li>
-			<li><a href="#polygon">Polygon</a></li>
-			<li><a href="#multipolygon">MultiPolygon</a></li>
-			<li><a href="#rectangle">Rectangle</a></li>
-			<li><a href="#circle">Circle</a></li>
-			<li><a href="#circlemarker">CircleMarker</a></li>
+			<li><a href="#map-properties">性能</a></li>
+			<li><a href="#map-panes">窗体</a></li>
 		</ul>
 	</div>
 	<div class="toc-col">
-		<h4>Other Layers</h4>
+		<h4>UI 图层</h4>
 		<ul>
-			<li><a href="#layergroup">LayerGroup</a></li>
-			<li><a href="#featuregroup">FeatureGroup</a></li>
+			<li><a href="#marker">标记</a></li>
+			<li><a href="#popup">冒泡窗</a></li>
+		</ul>
+		<h4>栅格图层</h4>
+		<ul>
+			<li><a href="#tilelayer">瓦片图层</a></li>
+			<li><a href="#tilelayer-wms">基于 WMS 的瓦片图层</a></li>
+			<li><a href="#tilelayer-canvas">基于 Canvas 的瓦片图层</a></li>
+			<li><a href="#imageoverlay">图片叠加层</a></li>
+		</ul>
+		<h4>矢量图层</h4>
+		<ul>
+			<li><a href="#path">路径</a></li>
+			<li><a href="#polyline">折线</a></li>
+			<li><a href="#multipolyline">组合折线</a></li>
+			<li><a href="#polygon">多边形</a></li>
+			<li><a href="#multipolygon">组合多边形</a></li>
+			<li><a href="#rectangle">矩形</a></li>
+			<li><a href="#circle">圆</a></li>
+			<li><a href="#circlemarker">圆标记</a></li>
+		</ul>
+	</div>
+	<div class="toc-col">
+		<h4>其他图层</h4>
+		<ul>
+			<li><a href="#layergroup">图层组</a></li>
+			<li><a href="#featuregroup">多功能图层组</a></li>
 			<li><a href="#geojson">GeoJSON</a></li>
 		</ul>
-		<h4>Basic Types</h4>
+		<h4>基本类型</h4>
 		<ul>
-			<li><a href="#latlng">LatLng</a></li>
-			<li><a href="#latlngbounds">LatLngBounds</a></li>
-			<li><a href="#point">Point</a></li>
-			<li><a href="#bounds">Bounds</a></li>
-			<li><a href="#icon">Icon</a></li>
-			<li><a href="#divicon">DivIcon</a></li>
+			<li><a href="#latlng">经纬度</a></li>
+			<li><a href="#latlngbounds">经纬度边界</a></li>
+			<li><a href="#point">点</a></li>
+			<li><a href="#bounds">边界</a></li>
+			<li><a href="#icon">图标</a></li>
+			<li><a href="#divicon">Div图标</a></li>
 		</ul>
-		<h4>Controls</h4>
+		<h4>控件</h4>
 		<ul>
-			<li><a href="#control">Control</a></li>
-			<li><a href="#control-zoom">Zoom</a></li>
-			<li><a href="#control-attribution">Attribution</a></li>
-			<li><a href="#control-layers">Layers</a></li>
-			<li><a href="#control-scale">Scale</a></li>
+			<li><a href="#control">控件</a></li>
+			<li><a href="#control-zoom">缩放控件</a></li>
+			<li><a href="#control-attribution">版权信息</a></li>
+			<li><a href="#control-layers">图层控件</a></li>
+			<li><a href="#control-scale">比例尺控件</a></li>
 		</ul>
 	</div>
 	<div class="toc-col">
-		<h4>Events</h4>
+		<h4>事件</h4>
 		<ul>
-			<li><a href="#events">Event methods</a></li>
-			<li><a href="#event-objects">Event objects</a></li>
+			<li><a href="#events">事件方法</a></li>
+			<li><a href="#event-objects">事件对象</a></li>
 		</ul>
-		<h4>Utility</h4>
+		<h4>实用工具</h4>
 		<ul>
-			<li><a href="#class">Class</a></li>
-			<li><a href="#browser">Browser</a></li>
-			<li><a href="#util">Util</a></li>
-			<li><a href="#transformation">Transformation</a></li>
-			<li><a href="#lineutil">LineUtil</a></li>
-			<li><a href="#polyutil">PolyUtil</a></li>
+			<li><a href="#class">类</a></li>
+			<li><a href="#browser">浏览器</a></li>
+			<li><a href="#util">公用</a></li>
+			<li><a href="#transformation">转换</a></li>
+			<li><a href="#lineutil">line 公用</a></li>
+			<li><a href="#polyutil">Poly 公用</a></li>
 		</ul>
-		<h4>DOM Utility</h4>
+		<h4>DOM 操作</h4>
 		<ul>
-			<li><a href="#domevent">DomEvent</a></li>
-			<li><a href="#domutil">DomUtil</a></li>
-			<li><a href="#posanimation">PosAnimation</a></li>
-			<li><a href="#draggable">Draggable</a></li>
+			<li><a href="#domevent">Dom 事件</a></li>
+			<li><a href="#domutil">Dom 公用</a></li>
+			<li><a href="#posanimation">移动动画</a></li>
+			<li><a href="#draggable">拖拽</a></li>
 		</ul>
 	</div>
 	<div class="toc-col last-col">
-		<h4>Interfaces</h4>
+		<h4>接口</h4>
 		<ul>
 			<li><a href="#ihandler">IHandler</a></li>
 			<li><a href="#ilayer">ILayer</a></li>
@@ -113,7 +113,7 @@ bodyclass: api-page
 			<li><a href="#icrs">ICRS</a></li>
 		</ul>
 
-		<h4>Misc</h4>
+		<h4>杂项</h4>
 		<ul>
 			<li><a href="#global">global switches</a></li>
 			<li><a href="#noconflict">noConflict</a></li>
@@ -128,11 +128,11 @@ bodyclass: api-page
 <p>This reference reflects <strong>Leaflet 0.7</strong>.
 Docs for 0.6 are available <a href="https://github.com/Leaflet/Leaflet/archive/gh-pages-0.6.zip">in the source form</a> (see <a href="https://github.com/Leaflet/Leaflet/blob/master/CONTRIBUTING.md#improving-documentation">instructions for running docs</a>).</p>
 
-<h2 id="map-class">Map</h2>
+<h2 id="map-class">地图</h2>
 
 <p>The central class of the API &mdash; it is used to create a map on a page and manipulate it.</p>
 
-<h3 id="map-usage">Usage example</h3>
+<h3 id="map-usage">用法示例</h3>
 
 <pre><code class="javascript">// initialize the map on the "map" div with a given center and zoom
 var map = L.map('map', {
@@ -140,12 +140,12 @@ var map = L.map('map', {
 	zoom: 13
 });</code></pre>
 
-<h3 id="map-constructor" class="left">Creation</h3>
+<h3 id="map-constructor" class="left">创建</h3>
 
 <table data-id='map'>
 	<tr>
 		<th>Factory</th>
-		<th>Description</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>L.map</b>(
@@ -161,16 +161,16 @@ var map = L.map('map', {
 
 
 
-<h3 id="map-options">Options</h3>
+<h3 id="map-options">选项（Option）</h3>
 
-<h4>Map State Options</h4>
+<h4>地图状态选项（Map State Options）</h4>
 
 <table data-id='map'>
 	<tr>
-		<th>Option</th>
-		<th>Type</th>
-		<th>Default</th>
-		<th>Description</th>
+		<th>参数</th>
+		<th>类型</th>
+		<th>默认值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>center</b></code></td>
@@ -220,10 +220,10 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th class="width140">Option</th>
-		<th>Type</th>
-		<th>Default</th>
-		<th>Description</th>
+		<th class="width140">参数</th>
+		<th>类型</th>
+		<th>默认值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>dragging</b></code></td>
@@ -297,10 +297,10 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th class="width140">Option</th>
-		<th>Type</th>
-		<th>Default</th>
-		<th>Description</th>
+		<th class="width140">参数</th>
+		<th>类型</th>
+		<th>默认值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>keyboard</b></code></td>
@@ -326,10 +326,10 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th class="width140">Option</th>
-		<th>Type</th>
-		<th>Default</th>
-		<th>Description</th>
+		<th class="width140">参数</th>
+		<th>类型</th>
+		<th>默认值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>inertia</b></code></td>
@@ -361,10 +361,10 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th class="width140">Option</th>
-		<th>Type</th>
-		<th>Default</th>
-		<th>Description</th>
+		<th class="width140">参数</th>
+		<th>类型</th>
+		<th>默认值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>zoomControl</b></code></td>
@@ -384,10 +384,10 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th class="width140">Option</th>
-		<th>Type</th>
-		<th>Default</th>
-		<th>Description</th>
+		<th class="width140">参数</th>
+		<th>类型</th>
+		<th>默认值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>fadeAnimation</b></code></td>
@@ -603,9 +603,9 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>setView</b>(
@@ -733,9 +733,9 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>getCenter</b>()</code></td>
@@ -982,9 +982,9 @@ var map = L.map('map', {
 
 <table data-id='map'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>getContainer</b>()</code></td>
@@ -1987,9 +1987,9 @@ var map = L.map('map', {
 
 <table data-id='tilelayer'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>addTo</b>(
@@ -2131,9 +2131,9 @@ var map = L.map('map', {
 
 <table data-id='tilelayer-wms'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>setParams</b>(
@@ -3409,9 +3409,9 @@ map.fitBounds(bounds);</code></pre>
 
 <table data-id='geojson'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>geometryToLayer</b>(
@@ -3502,9 +3502,9 @@ map.panTo(L.latLng(50, 30));</code></pre>
 
 <table data-id='latlng'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>distanceTo</b>(
@@ -3781,9 +3781,9 @@ map.panBy(L.point(200, 300));</code></pre>
 
 <table data-id='point'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>add</b>(
@@ -4197,9 +4197,9 @@ map.addControl(control);</code></pre>
 <h3>Methods</h3>
 <table data-id='control'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>setPosition</b>(
@@ -4375,9 +4375,9 @@ map.addControl(control);</code></pre>
 <h3>Methods</h3>
 <table data-id='control-attribution'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>setPrefix</b>(
@@ -4439,9 +4439,9 @@ L.control.layers(baseLayers, overlays).addTo(map);</code></pre>
 <h3>Methods</h3>
 <table data-id='control-layers'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>addBaseLayer</b>(
@@ -4627,9 +4627,9 @@ map.off('click', onClick);</code></pre>
 <h3>Methods</h3>
 <table data-id='events'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>addEventListener</b>(
@@ -5259,9 +5259,9 @@ MyClass.FOO; // 'bar'</code></pre>
 
 <table data-id='util'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>extend</b>(
@@ -5429,9 +5429,9 @@ MyClass.FOO; // 'bar'</code></pre>
 
 <table data-id='transformation'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>transform</b>(
@@ -5464,9 +5464,9 @@ MyClass.FOO; // 'bar'</code></pre>
 
 <table data-id='lineutil'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>simplify</b>(
@@ -5523,9 +5523,9 @@ MyClass.FOO; // 'bar'</code></pre>
 
 <table data-id='polylineutil'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>clipPolygon</b>(
@@ -5550,9 +5550,9 @@ MyClass.FOO; // 'bar'</code></pre>
 
 <table data-id='domevent'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>addListener</b>(
@@ -5642,9 +5642,9 @@ MyClass.FOO; // 'bar'</code></pre>
 
 <table data-id='domutil'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>get</b>(
@@ -5825,9 +5825,9 @@ fx.run(el, [300, 500], 0.5);</code></pre>
 
 <table data-id='posanimation'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>run</b>(
@@ -6010,9 +6010,9 @@ draggable.enable();
 
 <table data-id='ilayer'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>onAdd</b>(
@@ -6091,9 +6091,9 @@ map.addLayer(new MyCustomLayer(latlng));
 
 <table data-id='icontrol'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>onAdd</b>(
@@ -6158,9 +6158,9 @@ map.addControl(new MyControl());
 
 <table data-id='iprojection'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>project</b>(
@@ -6217,9 +6217,9 @@ map.addControl(new MyControl());
 
 <table data-id='icrs'>
 	<tr>
-		<th>Method</th>
-		<th>Returns</th>
-		<th>Description</th>
+		<th>方法</th>
+		<th>返回值</th>
+		<th>说明</th>
 	</tr>
 	<tr>
 		<td><code><b>latLngToPoint</b>(
