@@ -34,7 +34,7 @@ bodyclass: download-page
 Note that the master version can contain incompatible changes,
 so please read the changelog carefully when upgrading to it.
 
-### 使用 CDN 服务器上得 Leaflet 版本
+### 使用 CDN 服务器上的 Leaflet 版本
 
 The latest stable Leaflet release is hosted on a CDN &mdash; to start using
 it straight away, place this in the `head` of your HTML code:

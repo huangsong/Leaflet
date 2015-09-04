@@ -12,93 +12,93 @@ While Leaflet is meant to be as lightweight as possible, and focuses on a core s
 
 <div id="toc" class="clearfix">
 	<div class="toc-col">
-		<h4>Tile &amp; image layers</h4>
+		<h4>瓦片 &amp; 图像层</h4>
 
 		<ul>
-			<li> <a href='#basemap-providers'>Basemap providers</a></li>
-			<li> <a href='#basemap-formats'>Basemap formats</a></li>
-			<li> <a href='#non-map-base-layers'>Non-map base layers</a></li>
-			<li> <a href='#tileimage-display'>Tile/image display</a></li>
-			<li> <a href='#tile-load'>Tile load</a></li>
-			<li> <a href='#vector-tiles'>Vector tiles</a></li>
+			<li> <a href='#basemap-providers'>底图集成</a></li>
+			<li> <a href='#basemap-formats'>底图格式</a></li>
+			<li> <a href='#non-map-base-layers'>非地图类型底图</a></li>
+			<li> <a href='#tileimage-display'>瓦片/图像显示控制</a></li>
+			<li> <a href='#tile-load'>瓦片加载</a></li>
+			<li> <a href='#vector-tiles'>矢量瓦片</a></li>
 		</ul>
 
-		<h4>Overlay data</h4>
+		<h4>叠加数据</h4>
 
 		<ul>
-			<li> <a href='#overlay-data-formats'>Overlay data formats</a></li>
-			<li> <a href='#dynamiccustom-data-loading'>Dynamic data loading</a></li>
-			<li> <a href='#synthetic-overlays'>Synthetic overlays</a></li>
-			<li> <a href='#data-providers'>Data providers</a></li>
+			<li> <a href='#overlay-data-formats'>叠加数据格式</a></li>
+			<li> <a href='#dynamiccustom-data-loading'>动态数据加载</a></li>
+			<li> <a href='#synthetic-overlays'>合成叠加</a></li>
+			<li> <a href='#data-providers'>数据集成</a></li>
 		</ul>
 	</div>
 	<div class="toc-col">
 
-		<h4>Overlay Display</h4>
+		<h4>叠加显示</h4>
 		<ul>
-			<li><a href="#markers--renderers">Markers &amp; renderers</a></li>
-			<li><a href="#overlay-animations">Overlay animations</a></li>
+			<li><a href="#markers--renderers">标记 &amp; 渲染器</a></li>
+			<li><a href="#overlay-animations">叠加动画</a></li>
 			<li><a href="#clusteringdecluttering">Clustering/decluttering</a></li>
-			<li><a href="#heatmaps">Heatmaps</a></li>
+			<li><a href="#heatmaps">热力图</a></li>
 			<li><a href="#dataviz">DataViz</a></li>
 		</ul>
-		<h4>Overlay interaction</h4>
+		<h4>叠加互动</h4>
 		<ul>
-			<li><a href="#edit-geometries">Edit geometries</a></li>
-			<li><a href="#time--elevation">Time &amp; elevation</a></li>
-			<li><a href="#search--popups">Search &amp; popups</a></li>
-			<li><a href="#areaoverlay-selection">Area/overlay selection</a></li>
+			<li><a href="#edit-geometries">几何图形编辑</a></li>
+			<li><a href="#time--elevation">时间 &amp; 高度</a></li>
+			<li><a href="#search--popups">搜索 &amp; 冒泡窗</a></li>
+			<li><a href="#areaoverlay-selection">区域/叠加选项</a></li>
 		</ul>
 	</div>
 	<div class="toc-col">
-		<h4>Map interaction</h4>
+		<h4>地图互动</h4>
 		<ul>
-			<li><a href="#layer-switching-controls">Layer switching controls</a></li>
-			<li><a href="#interactive-panzoom">Interactive pan/zoom</a></li>
-			<li><a href="#bookmarked-panzoom">Bookmarked pan/zoom</a></li>
-			<li><a href="#fullscreen-controls">Fullscreen</a></li>
-			<li><a href="#minimaps--synced-maps">Minimaps &amp; synced maps</a></li>
-			<li><a href="#measurement">Measurement</a></li>
-			<li><a href="#mouse-coordinates">Mouse coordinates</a></li>
-			<li><a href="#events">Events</a></li>
-			<li><a href="#user-interface">User interface</a></li>
-			<li><a href="#printexport">Print/export</a></li>
-			<li><a href="#geolocation">Geolocation</a></li>
+			<li><a href="#layer-switching-controls">图层切换控制</a></li>
+			<li><a href="#interactive-panzoom">交互式平移/缩放</a></li>
+			<li><a href="#bookmarked-panzoom">书签平移/缩放</a></li>
+			<li><a href="#fullscreen-controls">全屏</a></li>
+			<li><a href="#minimaps--synced-maps">小地图 &amp; 地图同步</a></li>
+			<li><a href="#measurement">测量</a></li>
+			<li><a href="#mouse-coordinates">鼠标坐标</a></li>
+			<li><a href="#events">事件</a></li>
+			<li><a href="#user-interface">用户界面</a></li>
+			<li><a href="#printexport">打印/导出</a></li>
+			<li><a href="#geolocation">地理位置</a></li>
 		</ul>
 	</div>
 	<div class="toc-col">
-		<h4>Miscellaneous</h4>
+		<h4>杂项</h4>
 		<ul>
-			<li><a href="#geoprocessing">Geoprocessing</a></li>
-			<li><a href="#routing">Routing</a></li>
-			<li><a href="#geocoding">Geocoding</a></li>
-			<li><a href="#plugin-collections">Plugin collections</a></li>
+			<li><a href="#geoprocessing">地理处理</a></li>
+			<li><a href="#routing">路径规划</a></li>
+			<li><a href="#geocoding">地理编码</a></li>
+			<li><a href="#plugin-collections">插件集成</a></li>
 		</ul>
-		<h4>Integration</h4>
+		<h4>集成</h4>
 		<ul>
-			<li><a href="#frameworks--build-systems">Frameworks &amp; build systems</a></li>
-			<li><a href="#suprdsup-party-integration">3<sup>rd</sup> party</a></li>
+			<li><a href="#frameworks--build-systems">框架集成</a></li>
+			<li><a href="#suprdsup-party-integration">第3方集成</a></li>
 		</ul>
 		<hr>
-		<a href="#develop-your-own">Develop your own</a>
+		<a href="#develop-your-own">自定义开发</a>
 	</div>
 
 </div>
 
 
-## Tile & image layers
+## 瓦片 &amp; 图像层
 
 The following plugins allow loading different maps and provide functionality to tile and image layers.
 
-* [Basemap providers](#basemap-providers)
-* [Basemap formats](#basemap-formats)
-* [Non-map base layers](#non-map-base-layers)
-* [Tile/image display](#tileimage-display)
-* [Tile load](#tile-load)
-* [Vector tiles](#vector-tiles)
+* [底图集成](#basemap-providers)
+* [底图格式](#basemap-formats)
+* [非地图类型底图](#non-map-base-layers)
+* [瓦片/图像显示控制](#tileimage-display)
+* [瓦片加载](#tile-load)
+* [矢量瓦片](#vector-tiles)
 
 
-### Basemap providers
+### 底图集成
 
 Ready-to-go basemaps, with little or no configuration at all.
 
@@ -180,7 +180,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 
 
 
-### Basemap formats
+### 底图格式
 
 Plugins for loading basemaps or GIS raster layers in common (albeit non-default) formats.
 
@@ -268,7 +268,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 </table>
 
 
-### Non-map base layers
+### 非地图类型底图
 
 Sometimes you don't want to load a map, just big custom images. **Really** big ones.
 
@@ -340,7 +340,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 
 
 
-### Tile/image display
+### 瓦片/图像显示控制
 
 The following plugins change the way that tile or image layers are displayed in the map.
 
@@ -403,7 +403,7 @@ The following plugins change the way that tile or image layers are displayed in 
 
 
 
-### Tile Load
+### 瓦片加载
 
 The following plugins change the way that tile layers are loaded into the map.
 
@@ -458,7 +458,7 @@ The following plugins change the way that tile layers are loaded into the map.
 
 
 
-### Vector tiles
+### 矢量瓦片
 
 Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector tiles</a>.
 
