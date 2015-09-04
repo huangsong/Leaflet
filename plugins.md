@@ -76,7 +76,7 @@ While Leaflet is meant to be as lightweight as possible, and focuses on a core s
 		</ul>
 		<h4>集成</h4>
 		<ul>
-			<li><a href="#frameworks--build-systems">框架集成</a></li>
+			<li><a href="#frameworks--build-systems">库集成</a></li>
 			<li><a href="#suprdsup-party-integration">第3方集成</a></li>
 		</ul>
 		<hr>
@@ -2550,7 +2550,7 @@ Plugin developers: please keep future plugins in individual repositories.
 
 ## 集成
 
-### 框架集成
+### 库集成
 
 Ease your development integrating Leaflet into a development framework or automating some of the javascript/CSS work for complex applications.
 
