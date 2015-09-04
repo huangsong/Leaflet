@@ -38,9 +38,9 @@ While Leaflet is meant to be as lightweight as possible, and focuses on a core s
 		<ul>
 			<li><a href="#markers--renderers">标记 &amp; 渲染器</a></li>
 			<li><a href="#overlay-animations">叠加动画</a></li>
-			<li><a href="#clusteringdecluttering">Clustering/decluttering</a></li>
+			<li><a href="#clusteringdecluttering">集合/整理</a></li>
 			<li><a href="#heatmaps">热力图</a></li>
-			<li><a href="#dataviz">DataViz</a></li>
+			<li><a href="#dataviz">数据可视化</a></li>
 		</ul>
 		<h4>叠加互动</h4>
 		<ul>
@@ -493,7 +493,7 @@ Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector t
 </table>
 
 
-## Overlay data
+## 叠加数据
 
 The following plugins provide new ways of loading overlay data (GIS vector data): points, lines and polygons.
 
@@ -502,7 +502,7 @@ The following plugins provide new ways of loading overlay data (GIS vector data)
 * [Synthetic overlays](#synthetic-overlays)
 * [Data providers](#data-providers)
 
-### Overlay data formats
+### 叠加数据格式
 
 Load your own data from various GIS formats.
 
@@ -601,7 +601,7 @@ Load your own data from various GIS formats.
 
 
 
-### Dynamic/custom data loading
+### 动态数据加载
 
 Load dynamic data which is updated in the map, or load GIS vector data in non-standard ways.
 
@@ -657,7 +657,7 @@ Load dynamic data which is updated in the map, or load GIS vector data in non-st
 
 
 
-### Synthetic overlays
+### 合成叠加
 
 These plugins create useful overlays from scratch, no loading required.
 
@@ -692,7 +692,7 @@ These plugins create useful overlays from scratch, no loading required.
 
 
 
-### Data providers
+### 数据集成
 
 Load overlay data from third-party-services. See also [basemap providers](#basemap-providers) and [plugin collections](#collections).
 
@@ -728,7 +728,7 @@ Load overlay data from third-party-services. See also [basemap providers](#basem
 
 
 
-## Overlay display
+## 叠加显示
 
 The following plugins provide new ways of displaying overlay data information.
 
@@ -739,7 +739,7 @@ The following plugins provide new ways of displaying overlay data information.
 * [DataViz](#dataviz)
 
 
-### Markers & renderers
+### 标记 & 渲染器
 
 These plugins provide new markers or news ways of converting abstract data into images in your screen. Leaflet users versed in GIS also known these as symbolizers.
 
@@ -912,7 +912,7 @@ These plugins provide new markers or news ways of converting abstract data into 
 
 
 
-### Overlay animations
+### 叠加动画
 
 These plugins animate markers or some geometries. See also [geometries with time or elevation](#geometryinteraction-time).
 
@@ -967,7 +967,7 @@ These plugins animate markers or some geometries. See also [geometries with time
 
 
 
-### Clustering/Decluttering
+### 集合/整理
 
 When you are displaying a lot of data, these plugins will make your map look cleaner.
 
@@ -1047,7 +1047,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 	</tr>
 </table>
 
-### Heatmaps
+### 热力图
 
 These plugins create heatmaps and heatmap-like visualizations from vector data.
 
@@ -1104,7 +1104,7 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 </table>
 
 
-### DataViz
+### 数据可视化
 
 Powerful multi-purpose libraries for data visualization.
 
@@ -1149,7 +1149,7 @@ Powerful multi-purpose libraries for data visualization.
 
 
 
-## Interaction with geometries/features
+## 叠加互动
 
 The following plugins enable users to interact with overlay data: edit geometries, select areas or features, interact with the time dimension, search features and display information about them.
 
@@ -1158,7 +1158,7 @@ The following plugins enable users to interact with overlay data: edit geometrie
 * [Search & popups](#ge#search--popups)
 * [Area/overlay selection](#areaoverlay-selection)
 
-### Edit geometries
+### 几何图形编辑
 
 Allows users to create, draw, edit and/or delete points, lines and polygons.
 
@@ -1295,7 +1295,7 @@ Allows users to create, draw, edit and/or delete points, lines and polygons.
 </table>
 
 
-### Time & elevation
+### 时间 & 高度
 
 Most data is two-dimensional (latitude and longitude), but some data has more dimensions (altitude and/or time). The following plugins help users navigate these extra dimensions.
 
@@ -1361,7 +1361,7 @@ Most data is two-dimensional (latitude and longitude), but some data has more di
 
 
 
-### Search & popups
+### 搜索 & 冒泡窗
 
 Plugins that search for overlays and enhance how to display information about them.
 
@@ -1416,7 +1416,7 @@ Plugins that search for overlays and enhance how to display information about th
 
 
 
-### Area/overlay selection
+### 区域/叠加选项
 
 These plugins help users select either overlays or areas in the map.
 
@@ -1473,7 +1473,7 @@ These plugins help users select either overlays or areas in the map.
 
 
 
-## Map interaction
+## 地图互动
 
 New ways to interact with the map itself.
 
@@ -1489,7 +1489,7 @@ New ways to interact with the map itself.
 * [Print/export](#printexport)
 * [Geolocation](#geolocation)
 
-### Layer switching controls
+### 图层切换控制
 
 The following plugins enhance or extend `L.Control.Layers`.
 
@@ -1569,7 +1569,7 @@ The following plugins enhance or extend `L.Control.Layers`.
 </table>
 
 
-### Interactive pan/zoom
+### 交互式平移/缩放
 
 Change the way the user can interactively move around the map.
 
@@ -1654,7 +1654,7 @@ Change the way the user can interactively move around the map.
 
 
 
-### Bookmarked pan/zoom
+### 书签平移/缩放
 
 Change the way the user is moved around the map, by jumping to predefined/stored places.
 
@@ -1770,7 +1770,7 @@ Change the way the user is moved around the map, by jumping to predefined/stored
 
 
 
-### Fullscreen controls
+### 全屏
 
 Allows display of the map in full-screen mode.
 
@@ -1806,7 +1806,7 @@ Allows display of the map in full-screen mode.
 
 
 
-### Minimaps & synced maps
+### 小地图 & 地图同步
 
 Display two maps at once. One of them might be a different size and zoom level, usable as a minimap to aid with navigation.
 
@@ -1854,7 +1854,7 @@ Display two maps at once. One of them might be a different size and zoom level, 
 
 
 
-### Measurement
+### 测量
 
 Allow the user to measure distances or areas.
 
@@ -1908,7 +1908,7 @@ Allow the user to measure distances or areas.
 
 
 
-### Mouse coordinates
+### 鼠标坐标
 
 Show the geographical coordinates under the mouse cursor in different ways.
 
@@ -1989,7 +1989,7 @@ Show the geographical coordinates under the mouse cursor in different ways.
 
 
 
-### Events
+### 事件
 
 These plugins extend Leaflet event handling.
 
@@ -2065,7 +2065,7 @@ These plugins extend Leaflet event handling.
 
 
 
-### User interface
+### 用户界面
 
 Buttons, sliders, toolbars, sidebars, and panels.
 
@@ -2196,7 +2196,7 @@ Buttons, sliders, toolbars, sidebars, and panels.
 
 
 
-### Print/export
+### 打印/导出
 
 Print or export your map.
 
@@ -2228,7 +2228,7 @@ Print or export your map.
 
 
 
-### Geolocation
+### 地理位置
 
 Plugins that extend Leaflet's geolocation capabilities.
 
@@ -2276,11 +2276,11 @@ Plugins that extend Leaflet's geolocation capabilities.
 
 
 
-## Miscellaneous
+## 杂项
 
 
 
-### Geoprocessing
+### 地理处理
 
 The following plugins perform several sorts of geoprocessing (mathematical and topological operations on points, lines and polygons).
 
@@ -2372,7 +2372,7 @@ The following plugins perform several sorts of geoprocessing (mathematical and t
 
 
 
-### Routing
+### 路径规划
 
 The following plugins use external services to calculate driving or walking routes.
 
@@ -2422,7 +2422,7 @@ The following plugins use external services to calculate driving or walking rout
 
 
 
-### Geocoding
+### 地理编码
 
 External services that transform an address or the name of a place into latitude and longitude (or vice versa).
 
@@ -2509,7 +2509,7 @@ External services that transform an address or the name of a place into latitude
 
 
 
-### Plugin collections
+### 插件集成
 
 Sets of plugins that span several categories.
 
@@ -2548,9 +2548,9 @@ Plugin developers: please keep future plugins in individual repositories.
 
 
 
-## Integration
+## 集成
 
-### Frameworks & build systems
+### 框架集成
 
 Ease your development integrating Leaflet into a development framework or automating some of the javascript/CSS work for complex applications.
 
@@ -2666,7 +2666,7 @@ Ease your development integrating Leaflet into a development framework or automa
 </table>
 
 
-### 3<sup>rd</sup> party integration
+### 第3方集成
 
 The following plugins integrate Leaflet into third party services or websites.
 
@@ -2714,7 +2714,7 @@ The following plugins integrate Leaflet into third party services or websites.
 
 
 
-## Develop your own
+## 自定义开发
 
 Leaflet keeps it simple. If you can think of a feature that is not required by all of Leaflet users, and you can write the javascript code in a reusable way, you've got yourself a Leaflet plugin already.
 

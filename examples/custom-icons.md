@@ -3,7 +3,7 @@ layout: tutorial
 title: Markers With Custom Icons
 ---
 
-## Markers With Custom Icons
+## 自定义标记
 
 In this tutorial, you'll learn how to easily define your own icons for use by the markers you put on the map.
 

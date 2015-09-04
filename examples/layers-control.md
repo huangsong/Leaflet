@@ -3,7 +3,7 @@ layout: tutorial
 title: Layer Groups and Layers Control
 ---
 
-## Layer Groups and Layers Control
+## 图层组和图层切换控件
 
 This tutorial will show you how to group several layers into one, and how to use the layers control to allow users to easily switch different layers on your map.
 
@@ -12,7 +12,7 @@ This tutorial will show you how to group several layers into one, and how to use
 [View example on a separate page &rarr;](layers-control-example.html)
 
 
-### Layer Groups
+### 图层组
 
 Let's suppose you have a bunch of layers you want to combine into a group to handle them as one in your code:
 
@@ -27,7 +27,7 @@ Instead of adding them directly to the map, you can do the following, using the 
 
 Easy enough! Now you have a `cities` layer that combines your city markers into one layer you can add or remove from the map at once.
 
-### Layers Control
+### 图层切换控件
 
 Leaflet has a nice little control that allows your users control what layers they want to see on your map. In addition to showing you how to use it, we'll show another handy use for layer groups.
 

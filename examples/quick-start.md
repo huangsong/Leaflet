@@ -3,7 +3,7 @@ layout: tutorial
 title: Quick Start Guide
 ---
 
-## Leaflet Quick Start Guide
+## Leaflet 快速开发指南
 
 This step-by-step guide will quickly get you started on Leaflet basics, including setting up a Leaflet map, working with markers, polylines and popups, and dealing with events.
 
@@ -63,7 +63,7 @@ Make sure all the code is called after the `div` and `leaflet.js` inclusion. Tha
 It's worth noting that Leaflet is provider-agnostic, meaning that it doesn't enforce a particular choice of providers for tiles, and it doesn't even contain a single provider-specific line of code, so you're free to use other providers if you need to (we'd recommend Mapbox though, it looks beautiful).
 
 
-### Markers, circles and polygons
+### 标记, 圆和折线
 
 <div id="map2" class="map" style="height: 180px"></div>
 
@@ -88,7 +88,7 @@ Adding a polygon is as easy:
 	]).addTo(map);
 
 
-### Working with popups
+### 冒泡窗
 
 <div id="map3" class="map" style="height: 180px"></div>
 

@@ -3,7 +3,7 @@ layout: tutorial
 title: Leaflet on Mobile
 ---
 
-## Leaflet on Mobile
+## 移动端上得 Leaflet
 
 In this example, you'll learn how to create a fullscreen map tuned for mobile devices like iPhone, iPad or Android phones, and how to easily detect and use the current user location.
 
