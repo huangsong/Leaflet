@@ -102,7 +102,7 @@ The following plugins allow loading different maps and provide functionality to 
 
 Ready-to-go basemaps, with little or no configuration at all.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/leaflet-extras/leaflet-providers">leaflet-providers</a>
@@ -184,7 +184,7 @@ Ready-to-go basemaps, with little or no configuration at all.
 
 Plugins for loading basemaps or GIS raster layers in common (albeit non-default) formats.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/mylen/leaflet.TileLayer.WMTS">leaflet.TileLayer.WMTS</a>
@@ -272,7 +272,7 @@ Plugins for loading basemaps or GIS raster layers in common (albeit non-default)
 
 Sometimes you don't want to load a map, just big custom images. **Really** big ones.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/turban/Leaflet.Zoomify">TileLayer.Zoomify</a>
@@ -344,7 +344,7 @@ Sometimes you don't want to load a map, just big custom images. **Really** big o
 
 The following plugins change the way that tile or image layers are displayed in the map.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/aparshin/leaflet-boundary-canvas">TileLayer.BoundaryCanvas</a>
@@ -407,7 +407,7 @@ The following plugins change the way that tile or image layers are displayed in 
 
 The following plugins change the way that tile layers are loaded into the map.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="http://moonlite.github.com/Leaflet.MultiTileLayer/">Leaflet.MultiTileLayer</a>
@@ -462,7 +462,7 @@ The following plugins change the way that tile layers are loaded into the map.
 
 Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector tiles</a>.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/SpatialServer/Leaflet.MapboxVectorTile">Leaflet.MapboxVectorTile</a>
@@ -506,7 +506,7 @@ The following plugins provide new ways of loading overlay data (GIS vector data)
 
 Load your own data from various GIS formats.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
     <tr>
 		<td>
 			<a href="https://github.com/mapbox/leaflet-omnivore">leaflet-omnivore</a>
@@ -605,7 +605,7 @@ Load your own data from various GIS formats.
 
 Load dynamic data which is updated in the map, or load GIS vector data in non-standard ways.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/perliedman/leaflet-realtime">Leaflet Realtime</a>
@@ -661,7 +661,7 @@ Load dynamic data which is updated in the map, or load GIS vector data in non-st
 
 These plugins create useful overlays from scratch, no loading required.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/turban/Leaflet.Graticule">Leaflet.Graticule</a>
@@ -696,7 +696,7 @@ These plugins create useful overlays from scratch, no loading required.
 
 Load overlay data from third-party-services. See also [basemap providers](#basemap-providers) and [plugin collections](#collections).
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="http://geojason.info/leaflet-vector-layers/">Leaflet Vector Layers</a>
@@ -743,7 +743,7 @@ The following plugins provide new ways of displaying overlay data information.
 
 These plugins provide new markers or news ways of converting abstract data into images in your screen. Leaflet users versed in GIS also known these as symbolizers.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/jdfergason/Leaflet.Ellipse">Leaflet.ellipse</a>
@@ -916,7 +916,7 @@ These plugins provide new markers or news ways of converting abstract data into 
 
 These plugins animate markers or some geometries. See also [geometries with time or elevation](#geometryinteraction-time).
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/openplans/Leaflet.AnimatedMarker">Leaflet.AnimatedMarker</a>
@@ -971,7 +971,7 @@ These plugins animate markers or some geometries. See also [geometries with time
 
 When you are displaying a lot of data, these plugins will make your map look cleaner.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/Leaflet/Leaflet.markercluster">Leaflet.markercluster</a>
@@ -1051,7 +1051,7 @@ When you are displaying a lot of data, these plugins will make your map look cle
 
 These plugins create heatmaps and heatmap-like visualizations from vector data.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/domoritz/leaflet-maskcanvas">MaskCanvas</a>
@@ -1108,7 +1108,7 @@ These plugins create heatmaps and heatmap-like visualizations from vector data.
 
 Powerful multi-purpose libraries for data visualization.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="http://dynmeth.github.com/RaphaelLayer/">RaphaelLayer</a>
@@ -1162,7 +1162,7 @@ The following plugins enable users to interact with overlay data: edit geometrie
 
 Allows users to create, draw, edit and/or delete points, lines and polygons.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/Wildhoney/Leaflet.FreeDraw">Leaflet.FreeDraw</a>
@@ -1299,7 +1299,7 @@ Allows users to create, draw, edit and/or delete points, lines and polygons.
 
 Most data is two-dimensional (latitude and longitude), but some data has more dimensions (altitude and/or time). The following plugins help users navigate these extra dimensions.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/socib/Leaflet.TimeDimension">Leaflet.TimeDimension</a>
@@ -1365,7 +1365,7 @@ Most data is two-dimensional (latitude and longitude), but some data has more di
 
 Plugins that search for overlays and enhance how to display information about them.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/naomap/leaflet-fusesearch">leaflet-fusesearch</a>
@@ -1420,7 +1420,7 @@ Plugins that search for overlays and enhance how to display information about th
 
 These plugins help users select either overlays or areas in the map.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/heyman/leaflet-areaselect/">Leaflet.AreaSelect</a>
@@ -1493,7 +1493,7 @@ New ways to interact with the map itself.
 
 The following plugins enhance or extend `L.Control.Layers`.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/vogdb/SelectLayersControl">Leaflet.SelectLayers</a>
@@ -1573,7 +1573,7 @@ The following plugins enhance or extend `L.Control.Layers`.
 
 Change the way the user can interactively move around the map.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="http://kartena.github.com/Leaflet.Pancontrol/">Leaflet.Pancontrol</a>
@@ -1658,7 +1658,7 @@ Change the way the user can interactively move around the map.
 
 Change the way the user is moved around the map, by jumping to predefined/stored places.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/pwldp/leaflet.viewcenter">Leaflet.viewcenter</a>
@@ -1774,7 +1774,7 @@ Change the way the user is moved around the map, by jumping to predefined/stored
 
 Allows display of the map in full-screen mode.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/mapbox/Leaflet.fullscreen">Leaflet.fullscreen</a>
@@ -1810,7 +1810,7 @@ Allows display of the map in full-screen mode.
 
 Display two maps at once. One of them might be a different size and zoom level, usable as a minimap to aid with navigation.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/turban/Leaflet.Sync">Leaflet.Sync</a>
@@ -1858,7 +1858,7 @@ Display two maps at once. One of them might be a different size and zoom level, 
 
 Allow the user to measure distances or areas.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/makinacorpus/Leaflet.MeasureControl">Leaflet.MeasureControl</a>
@@ -1912,7 +1912,7 @@ Allow the user to measure distances or areas.
 
 Show the geographical coordinates under the mouse cursor in different ways.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/ardhi/Leaflet.MousePosition">Leaflet.MousePosition</a>
@@ -1993,7 +1993,7 @@ Show the geographical coordinates under the mouse cursor in different ways.
 
 These plugins extend Leaflet event handling.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/CliffCloud/Leaflet.Sleep">L.Sleep</a>
@@ -2069,7 +2069,7 @@ These plugins extend Leaflet event handling.
 
 Buttons, sliders, toolbars, sidebars, and panels.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/CliffCloud/Leaflet.EasyButton">L.EasyButton</a>
@@ -2205,7 +2205,7 @@ Print or export your map.
 - Get a PNG from a Leaflet map and export it in PDF https://github.com/chrissom/leaflet-pdf
 -->
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/aratcliffe/Leaflet.print">Leaflet.print</a>
@@ -2232,7 +2232,7 @@ Print or export your map.
 
 Plugins that extend Leaflet's geolocation capabilities.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/CliffCloud/Leaflet.LocationShare">L.LocationShare</a>
@@ -2284,7 +2284,7 @@ Plugins that extend Leaflet's geolocation capabilities.
 
 The following plugins perform several sorts of geoprocessing (mathematical and topological operations on points, lines and polygons).
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/kartena/Proj4Leaflet">Proj4Leaflet</a>
@@ -2376,7 +2376,7 @@ The following plugins perform several sorts of geoprocessing (mathematical and t
 
 The following plugins use external services to calculate driving or walking routes.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="http://www.liedman.net/leaflet-routing-machine/">Leaflet Routing Machine</a>
@@ -2426,7 +2426,7 @@ The following plugins use external services to calculate driving or walking rout
 
 External services that transform an address or the name of a place into latitude and longitude (or vice versa).
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/smeijer/L.GeoSearch">Leaflet GeoSearch</a>
@@ -2515,7 +2515,7 @@ Sets of plugins that span several categories.
 
 Plugin developers: please keep future plugins in individual repositories.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/shramov/leaflet-plugins">Plugins by Pavel Shramov</a>
@@ -2554,7 +2554,7 @@ Plugin developers: please keep future plugins in individual repositories.
 
 Ease your development integrating Leaflet into a development framework or automating some of the javascript/CSS work for complex applications.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/moklick/generator-leaflet">Leaflet Yeoman Generator</a>
@@ -2670,7 +2670,7 @@ Ease your development integrating Leaflet into a development framework or automa
 
 The following plugins integrate Leaflet into third party services or websites.
 
-<table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
+<table class="plugins"><tr><th>插件名称</th><th>说明</th><th>维护者</th></tr>
 	<tr>
 		<td>
 			<a href="https://github.com/yohanboniface/Leaflet.EditInOSM">Leaflet.EditInOSM</a>
