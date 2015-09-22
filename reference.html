@@ -105,19 +105,19 @@ bodyclass: api-page
 	<div class="toc-col last-col">
 		<h4>接口</h4>
 		<ul>
-			<li><a href="#ihandler">IHandler</a></li>
-			<li><a href="#ilayer">ILayer</a></li>
+			<li><a href="#ihandler">I 管理</a></li>
+			<li><a href="#ilayer">I 图层</a></li>
 			<!--<li><a class="nodocs" href="#">IFeature</a></li>-->
-			<li><a href="#icontrol">IControl</a></li>
-			<li><a href="#iprojection">IProjection</a></li>
-			<li><a href="#icrs">ICRS</a></li>
+			<li><a href="#icontrol">I 控制</a></li>
+			<li><a href="#iprojection">I 投影</a></li>
+			<li><a href="#icrs">I 坐标</a></li>
 		</ul>
 
 		<h4>杂项</h4>
 		<ul>
-			<li><a href="#global">global switches</a></li>
-			<li><a href="#noconflict">noConflict</a></li>
-			<li><a href="#version">version</a></li>
+			<li><a href="#global">全局设置</a></li>
+			<li><a href="#noconflict">无冲突</a></li>
+			<li><a href="#version">版本</a></li>
 		</ul>
 	</div>
 </div>
@@ -130,11 +130,11 @@ Docs for 0.6 are available <a href="https://github.com/Leaflet/Leaflet/archive/g
 
 <h2 id="map-class">地图</h2>
 
-<p>The central class of the API &mdash; it is used to create a map on a page and manipulate it.</p>
+<p>核心是API，是用来创建页面和操作页面的</p>
 
 <h3 id="map-usage">用法示例</h3>
 
-<pre><code class="javascript">// initialize the map on the "map" div with a given center and zoom
+<pre><code class="javascript">// 初始化地图的中心位置和缩放大小
 var map = L.map('map', {
 	center: [51.505, -0.09],
 	zoom: 13
@@ -154,7 +154,7 @@ var map = L.map('map', {
 		</code></td>
 
 
-		<td>Instantiates a map object given a div element (or its id) and optionally an object literal with map options described below.</td>
+		<td>实例出一个映射对象给定一个div元素或ID名，并用文字对地图选项进行描述.</td>
 	</tr>
 </table>
 
@@ -173,46 +173,46 @@ var map = L.map('map', {
 		<th>说明</th>
 	</tr>
 	<tr>
-		<td><code><b>center</b></code></td>
-		<td><code><a href="#latlng">LatLng</a></code></td>
-		<td><code><span class="hljs-literal">null</span></code></td>
-		<td>Initial geographical 中心 of the map.</td>
+		<td><code><b>中心</b></code></td>
+		<td><code><a href="#latlng">经纬度</a></code></td>
+		<td><code><span class="hljs-literal">空</span></code></td>
+		<td>初始化地图中心点.</td>
 	</tr>
 	<tr>
-		<td><code><b>zoom</b></code></td>
-		<td><code>Number</code></td>
-		<td><code><span class="hljs-literal">null</span></code></td>
-		<td>Initial map zoom.</td>
+		<td><code><b>缩放大小</b></code></td>
+		<td><code>数值</code></td>
+		<td><code><span class="hljs-literal">空</span></code></td>
+		<td>初始化地图缩放大小</td>
 	</tr>
 	<tr>
-		<td><code><b>layers</b></code></td>
-		<td><code><a href="#ilayer">ILayer</a>[]</code></td>
-		<td><code><span class="hljs-literal">null</span></code></td>
-		<td>Layers that will be added to the map initially.</td>
+		<td><code><b>图层</b></code></td>
+		<td><code><a href="#ilayer">I 层</a>[]</code></td>
+		<td><code><span class="hljs-literal">空</span></code></td>
+		<td>初始化地图的图层，并添加到地图.</td>
 	</tr>
 	<tr>
-		<td><code><b>minZoom</b></code></td>
-		<td><code>Number</code></td>
-		<td><code><span class="hljs-literal">null</span></code></td>
-		<td>Minimum zoom level of the map. Overrides any <code>minZoom</code> set on map layers.</td>
+		<td><code><b>最小缩放</b></code></td>
+		<td><code>数值</code></td>
+		<td><code><span class="hljs-literal">空</span></code></td>
+		<td>最小的地图缩放级别. 覆盖到任何 <code>minZoom</code> 层在地图上.</td>
 	</tr>
 	<tr>
-		<td><code><b>maxZoom</b></code></td>
-		<td><code>Number</code></td>
-		<td><code><span class="hljs-literal">null</span></code></td>
-		<td>Maximum zoom level of the map. This overrides any <code>maxZoom</code> set on map layers.</td>
+		<td><code><b>最大缩放</b></code></td>
+		<td><code>数值</code></td>
+		<td><code><span class="hljs-literal">空</span></code></td>
+		<td>最大的地图缩放级别. 覆盖到任何 <code>maxZoom</code> 层在地图上.</td>
 	</tr>
 	<tr id="map-maxbounds">
-		<td><code><b>maxBounds</b></code></td>
-		<td><code><a href="#latlngbounds">LatLngBounds</a></code></td>
-		<td><code><span class="hljs-literal">null</span></code></td>
-		<td>When this option is set, the map restricts the view to the given geographical bounds, bouncing the user back when he tries to pan outside the view. To set the restriction dynamically, use <a href="#map-setmaxbounds">setMaxBounds</a> method</td>
+		<td><code><b>最大边界</b></code></td>
+		<td><code><a href="#latlngbounds">经纬度界限</a></code></td>
+		<td><code><span class="hljs-literal">空</span></code></td>
+		<td>当设置此选项时，地图映射限制于给定的界限中，当用户想跳出界限时可以使用 <a href="#map-setmaxbounds">setMaxBounds</a> 方法</td>
     </tr>
 	<tr>
-		<td><code><b>crs</b></code></td>
-		<td><code><a href="#icrs">CRS</a></code></td>
+		<td><code><b>坐标系</b></code></td>
+		<td><code><a href="#icrs">坐标系</a></code></td>
 		<td><code>L.CRS.<br/>EPSG3857</code></td>
-		<td>Coordinate Reference System to use. Don't change this if you're not sure what it means.</td>
+		<td>使用坐标参考系，当你不确定使用何种坐标系时，请不要改变.</td>
 	</tr>
 </table>
 
